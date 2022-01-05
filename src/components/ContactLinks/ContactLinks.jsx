@@ -10,18 +10,34 @@ import styles from "./ContactLinks.module.scss";
 const ContactLinks = () => {
     return (
         <div className={styles.links}>
-            <button className={styles.link}>
+            <a
+                href="https://www.linkedin.com/in/brentleigh-edwards-0b29a3140/"
+                target="_blank"
+                className={styles.link}
+            >
                 <FontAwesomeIcon icon={faLinkedin} />
-            </button>
-            <button className={styles.link}>
+            </a>
+            <a
+                href="https://twitter.com/BrentEd72114176"
+                target="_blank"
+                className={styles.link}
+            >
                 <FontAwesomeIcon icon={faTwitter} />
-            </button>
-            <button className={styles.link}>
+            </a>
+            <a
+                href="https://github.com/zirris512"
+                target="_blank"
+                className={styles.link}
+            >
                 <FontAwesomeIcon icon={faGithub} />
-            </button>
-            <button className={styles.link}>
+            </a>
+            <a
+                href="mailto:brentedwards512@gmail.com"
+                target="_blank"
+                className={styles.link}
+            >
                 <FontAwesomeIcon icon={faEnvelope} />
-            </button>
+            </a>
         </div>
     );
 };
