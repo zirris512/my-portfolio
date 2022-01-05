@@ -1,5 +1,6 @@
 .heroHeader {
     min-height: 100vh;
+    padding-top: 5rem;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -12,7 +13,7 @@
     position: relative;
     display: flex;
     align-items: center;
-    width: min(calc(100% - 100px), 30vmax);
+    width: min(calc(100% - 40vw), 30vmax);
     border-radius: 50%;
     box-shadow: 0 0 0 20px #222, 0 0 0 40px #555;
     aspect-ratio: 1;
@@ -25,10 +26,4 @@
 
 .heroSubtitle {
     text-align: center;
-}
-
-@media (min-width: 768px) {
-    .heroTitle h1 {
-        font-size: 4rem;
-    }
 }
