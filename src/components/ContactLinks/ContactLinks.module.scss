@@ -6,7 +6,6 @@
 }
 
 .link {
-    // border: 1px solid black;
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -22,6 +21,10 @@
 .link:focus {
     color: black;
     background: hsla(0, 0%, 30%, 0.3);
+}
+
+.link:active,
+.link:focus {
     outline: solid 5px hsl(125 100% 20%);
     outline-offset: -1px;
 }
