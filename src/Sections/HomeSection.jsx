@@ -4,7 +4,7 @@ import ContactLinks from "../components/ContactLinks/ContactLinks";
 
 const HomeSection = () => {
     return (
-        <header className={styles.heroHeader}>
+        <header className={styles.heroHeader} id="home">
             <div className={styles.heroTitle}>
                 <h1>Hello, my name is Brent.</h1>
             </div>
