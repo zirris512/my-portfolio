@@ -1,0 +1,104 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 5vh;
+    position: fixed;
+    inset: 0 0 auto 0;
+    z-index: 100;
+    background-color: hsl(0 0% 80%);
+    transition: background 200ms ease-in, box-shadow 200ms ease-in;
+
+    &.navScrolling {
+        background-color: hsl(0 0% 95%);
+        box-shadow: 0 10px 20px hsl(0 0% 20%);
+        border-radius: 0 0 5px 5px;
+    }
+}
+
+.navHeader {
+    width: min-content;
+    padding: 1em;
+    text-align: center;
+
+    .navHeaderLink {
+        color: hsl(0 0% 0%);
+        text-decoration: none;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+}
+
+.navList {
+    padding: 1em;
+
+    .navListItems {
+        list-style: none;
+        display: flex;
+        gap: 1.5em;
+
+        .navListItemLink {
+            text-decoration: none;
+            color: hsl(0 0% 0%);
+            font-size: 1.75rem;
+
+            &:hover {
+                color: hsl(110 70% 40%);
+            }
+        }
+    }
+}
+
+.mobileNavBtn {
+    display: none;
+    font-size: 2rem;
+    background-color: transparent;
+    border: none;
+    padding: 0.2em;
+    margin-right: 1em;
+    cursor: pointer;
+}
+
+@media (max-width: 968px) {
+    .navList {
+        position: absolute;
+        left: 50%;
+        right: 0;
+        top: 0;
+        bottom: -100vh;
+        padding: 1.5em;
+        border-radius: 0 0 5px 5px;
+        background-color: hsl(0 0% 95%);
+        z-index: -1;
+        transform-origin: right;
+        transition: transform 500ms ease-in-out, opacity 500ms ease-in-out;
+
+        &.active {
+            transform: translateX(70%);
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        .navListItems {
+            padding-top: 5vh;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 4em;
+        }
+    }
+
+    .mobileNavBtn {
+        display: block;
+    }
+
+    .backdrop {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: -100vh;
+        background-color: hsl(0 0% 0% / 0.5);
+        z-index: -2;
+    }
+}

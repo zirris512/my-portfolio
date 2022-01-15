@@ -2,7 +2,7 @@ import styles from "./AboutSection.module.scss";
 
 const AboutSection = () => {
     return (
-        <section className={styles.aboutWrapper}>
+        <section className={styles.aboutWrapper} id="about">
             <h1 className={styles.aboutHeader}>About</h1>
             <p>
                 Full Stack Web Developer with a minor background in psychology

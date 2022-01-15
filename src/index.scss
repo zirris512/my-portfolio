@@ -6,9 +6,13 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Roboto", sans-serif;
-    background: hsl(0 0% 0% / 0.1);
+    background: hsl(0 0% 80%);
 }
 
 h1 {
@@ -25,6 +29,14 @@ h3 {
 
 p {
     font-size: 1.5rem;
+}
+
+button:active,
+button:focus,
+a:active,
+a:focus {
+    outline: solid 5px hsl(125 100% 20%);
+    outline-offset: -1px;
 }
 
 @media (min-width: 968px) {
