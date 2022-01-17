@@ -1,5 +1,5 @@
 import styles from "./HomeSection.module.scss";
-import profilePic from "../assets/profile-pic.jpg";
+import profilePic from "/assets/profile-pic.jpg";
 import ContactLinks from "../components/ContactLinks/ContactLinks";
 
 const HomeSection = () => {
