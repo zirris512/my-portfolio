@@ -42,8 +42,7 @@ a:active,
 a:focus,
 input:active,
 input:focus {
-    outline: solid 5px var(--secondary-color);
-    outline-offset: -1px;
+    outline: solid 4px var(--secondary-color);
 }
 
 @media (min-width: 968px) {

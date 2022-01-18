@@ -13,6 +13,7 @@ const ContactLinks = () => {
             <a
                 href="https://www.linkedin.com/in/brentleigh-edwards-0b29a3140/"
                 target="_blank"
+                aria-label="linkedin link"
                 className={styles.link}
             >
                 <FontAwesomeIcon icon={faLinkedin} />
@@ -20,6 +21,7 @@ const ContactLinks = () => {
             <a
                 href="https://twitter.com/BrentEd72114176"
                 target="_blank"
+                aria-label="twitter link"
                 className={styles.link}
             >
                 <FontAwesomeIcon icon={faTwitter} />
@@ -27,6 +29,7 @@ const ContactLinks = () => {
             <a
                 href="https://github.com/zirris512"
                 target="_blank"
+                aria-label="github link"
                 className={styles.link}
             >
                 <FontAwesomeIcon icon={faGithub} />
@@ -34,6 +37,7 @@ const ContactLinks = () => {
             <a
                 href="mailto:brentedwards512@gmail.com"
                 target="_blank"
+                aria-label="email link"
                 className={styles.link}
             >
                 <FontAwesomeIcon icon={faEnvelope} />

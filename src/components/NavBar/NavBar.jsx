@@ -9,7 +9,7 @@ const NavBar = () => {
 
     useEffect(() => {
         const onScroll = () => {
-            const scrollCheck = window.scrollY > 100;
+            const scrollCheck = window.scrollY > 10;
             if (scrollCheck !== scroll) {
                 setScroll(scrollCheck);
             }

@@ -26,10 +26,11 @@
     color: hsl(0 0% 0%);
     font-size: 1.5rem;
     margin-right: 1rem;
+    transition: color 300ms ease-in-out;
 
     &:hover,
     &:focus {
-        color: hsl(0 0% 20%);
+        color: var(--secondary-color);
     }
 }
 

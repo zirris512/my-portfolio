@@ -25,6 +25,7 @@ const SingleProject = ({ projectData }) => {
                     <a
                         href={projectData.deployedUrl}
                         target="_blank"
+                        aria-label="project deployment link"
                         className={styles.projectLink}
                     >
                         <FontAwesomeIcon icon={faGlobe} />
@@ -32,6 +33,7 @@ const SingleProject = ({ projectData }) => {
                     <a
                         href={projectData.github}
                         target="_blank"
+                        aria-label="project github link"
                         className={styles.projectLink}
                     >
                         <FontAwesomeIcon icon={faGithub} />
