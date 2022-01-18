@@ -3,7 +3,7 @@ import SectionWrapper from "../components/SectionWrapper/SectionWrapper";
 
 const AboutSection = () => {
     return (
-        <SectionWrapper title="About">
+        <SectionWrapper title="About" id="about">
             <p>
                 Full Stack Web Developer with a minor background in psychology
                 and engineering to build a better user experience on the web.
