@@ -1,12 +1,14 @@
 import styles from "./HomeSection.module.scss";
 import profilePic from "/assets/profile-pic.jpg";
 import ContactLinks from "../components/ContactLinks/ContactLinks";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 
 const HomeSection = () => {
     return (
         <header className={styles.heroHeader} id="home">
             <div className={styles.heroTitle}>
-                <h1>Hello, my name is Brent.</h1>
+                <h1>Hello, I am Brent.</h1>
             </div>
             <div className={styles.imageContainer}>
                 <img
@@ -19,6 +21,9 @@ const HomeSection = () => {
                 <h2>Full-Stack Developer</h2>
             </div>
             <ContactLinks />
+            <a className={styles.scrollDownIcon} href="#about">
+                <FontAwesomeIcon icon={faChevronDown} />
+            </a>
         </header>
     );
 };
