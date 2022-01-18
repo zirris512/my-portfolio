@@ -15,7 +15,7 @@
     align-items: center;
     width: min(calc(100% - 40vw), 30vmax);
     border-radius: 50%;
-    box-shadow: 0 0 0 20px #222, 0 0 0 40px #555;
+    box-shadow: 0 0 0 20px #222, 0 0 5px 40px #555, 0 0 10px 60px #999;
     aspect-ratio: 1;
     overflow: hidden;
 }

@@ -71,7 +71,7 @@
             "github": "https://github.com/zirris512/Train_Schedule"
         },
         {
-            "id": 4,
+            "id": 5,
             "name": "Clicky Game",
             "description": "An app where the user tries to click on images that have not been previously clicked to increase their score. The goal is to achieve the highest score possible out of 12.",
             "technologies": ["HTML/CSS", "Javascript", "Reactjs", "Bootstrap"],
@@ -81,7 +81,7 @@
             "github": "https://github.com/zirris512/clicky-game"
         },
         {
-            "id": 4,
+            "id": 6,
             "name": "Manga Hub",
             "description": "An app where the user can search for their favorite anime or manga. The user can create an account or login to an existing account to add/remove favorites.",
             "technologies": [
