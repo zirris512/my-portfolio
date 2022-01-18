@@ -1,0 +1,53 @@
+.projectContainer {
+    margin-bottom: 2rem;
+}
+
+.projectImgContainer {
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px hsl(0 0% 0%);
+    overflow: hidden;
+    margin-bottom: 2rem;
+    height: fit-content;
+}
+
+.projectImg {
+    display: block;
+    width: 100%;
+}
+
+.techList {
+    font-size: 1rem;
+    font-weight: bold;
+    color: hsl(0 0% 30%);
+}
+
+.projectLink {
+    color: hsl(0 0% 0%);
+    font-size: 1.5rem;
+    margin-right: 1rem;
+
+    &:hover,
+    &:focus {
+        color: hsl(0 0% 20%);
+    }
+}
+
+@media (min-width: 968px) {
+    .projectContainer {
+        display: flex;
+        gap: 2rem;
+    }
+
+    .projectImgContainer {
+        flex: 1 1 0;
+        margin-bottom: 0;
+    }
+
+    .projectContent {
+        flex: 2 1 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+}
