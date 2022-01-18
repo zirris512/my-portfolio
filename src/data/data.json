@@ -4,7 +4,14 @@
             "id": 1,
             "name": "Plan and Go",
             "description": "Plan and Go is an app where users can look for attractions at a searched destination and find nearby hotels.",
-            "technologies": ["HTML/CSS", "Javascript", "Bulma", "JQuery", "LocationIQ", "Leaflet"],
+            "technologies": [
+                "HTML/CSS",
+                "Javascript",
+                "Bulma",
+                "JQuery",
+                "LocationIQ",
+                "Leaflet"
+            ],
             "imgUrl": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80",
             "imgAlt": "silver laptop on white table",
             "deployedUrl": "https://zirris512.github.io/project-1/",
@@ -12,23 +19,89 @@
         },
         {
             "id": 2,
-            "name": "Plan and Go",
-            "description": "Plan and Go is an app where users can look for attractions at a searched destination and find nearby hotels.",
-            "technologies": ["HTML/CSS", "Javascript", "Bulma", "JQuery", "LocationIQ", "Leaflet"],
+            "name": "Epic Adventure!",
+            "description": "Epic Adventure is a choose your own adventure story. The user makes choices and winds up at an ending based on those choices.",
+            "technologies": [
+                "HTML/CSS",
+                "Javascript",
+                "JQuery",
+                "Pug",
+                "MySQL",
+                "Sequelize",
+                "Express",
+                "Nodejs"
+            ],
             "imgUrl": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80",
             "imgAlt": "silver laptop on white table",
-            "deployedUrl": "https://zirris512.github.io/project-1/",
-            "github": "https://github.com/zirris512/project-1"
+            "deployedUrl": "https://ku-project2-group3.herokuapp.com/",
+            "github": "https://github.com/zirris512/Project2"
         },
         {
             "id": 3,
-            "name": "Plan and Go",
-            "description": "Plan and Go is an app where users can look for attractions at a searched destination and find nearby hotels.",
-            "technologies": ["HTML/CSS", "Javascript", "Bulma", "JQuery", "LocationIQ", "Leaflet"],
+            "name": "Eat-da-Burger",
+            "description": "A small project where the user could add items to a list. Then, remove and add them to another list from the database.",
+            "technologies": [
+                "HTML/CSS",
+                "Javascript",
+                "JQuery",
+                "Bootstrap",
+                "MySQL",
+                "Handlebars"
+            ],
             "imgUrl": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80",
             "imgAlt": "silver laptop on white table",
-            "deployedUrl": "https://zirris512.github.io/project-1/",
-            "github": "https://github.com/zirris512/project-1"
+            "deployedUrl": "https://burgerappbse.herokuapp.com/",
+            "github": "https://github.com/zirris512/burger"
+        },
+        {
+            "id": 4,
+            "name": "Train Schedule",
+            "description": "A small project where the user could enter values into a form and update the table with the new values and times.",
+            "technologies": [
+                "HTML/CSS",
+                "Javascript",
+                "JQuery",
+                "Bootstrap",
+                "Momentjs",
+                "Firebase"
+            ],
+            "imgUrl": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80",
+            "imgAlt": "silver laptop on white table",
+            "deployedUrl": "https://zirris512.github.io/Train_Schedule/",
+            "github": "https://github.com/zirris512/Train_Schedule"
+        },
+        {
+            "id": 4,
+            "name": "Clicky Game",
+            "description": "An app where the user tries to click on images that have not been previously clicked to increase their score. The goal is to achieve the highest score possible out of 12.",
+            "technologies": ["HTML/CSS", "Javascript", "Reactjs", "Bootstrap"],
+            "imgUrl": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80",
+            "imgAlt": "silver laptop on white table",
+            "deployedUrl": "https://zirris512.github.io/clicky-game/",
+            "github": "https://github.com/zirris512/clicky-game"
+        },
+        {
+            "id": 4,
+            "name": "Manga Hub",
+            "description": "An app where the user can search for their favorite anime or manga. The user can create an account or login to an existing account to add/remove favorites.",
+            "technologies": [
+                "HTML/CSS",
+                "Javascript",
+                "Reactjs",
+                "React-Router",
+                "Apollo",
+                "MongoDB",
+                "Mongoose",
+                "Nodejs",
+                "Express",
+                "GraphQL",
+                "Passport",
+                "Bootstrap"
+            ],
+            "imgUrl": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80",
+            "imgAlt": "silver laptop on white table",
+            "deployedUrl": "https://mangaproject.herokuapp.com/",
+            "github": "https://github.com/zirris512/manga_project"
         }
     ]
 }
