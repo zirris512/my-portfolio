@@ -39,7 +39,9 @@ p {
 button:active,
 button:focus,
 a:active,
-a:focus {
+a:focus,
+input:active,
+input:focus {
     outline: solid 5px var(--secondary-color);
     outline-offset: -1px;
 }
