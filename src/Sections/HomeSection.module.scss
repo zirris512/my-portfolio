@@ -33,7 +33,10 @@
     font-size: 1rem;
     color: #000;
     padding: 1rem;
-    animation: pointing 1s infinite;
+
+    svg {
+        animation: pointing 1s infinite;
+    }
 }
 
 @keyframes pointing {

@@ -21,7 +21,11 @@ const HomeSection = () => {
                 <h2>Full-Stack Developer</h2>
             </div>
             <ContactLinks />
-            <a className={styles.scrollDownIcon} href="#about">
+            <a
+                className={styles.scrollDownIcon}
+                href="#about"
+                aria-label="scroll down button"
+            >
                 <FontAwesomeIcon icon={faChevronDown} />
             </a>
         </header>

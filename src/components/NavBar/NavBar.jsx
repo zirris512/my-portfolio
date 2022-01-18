@@ -79,7 +79,11 @@ const NavBar = () => {
                     </li>
                 </ul>
             </div>
-            <button className={styles.mobileNavBtn} onClick={navBtnHandler}>
+            <button
+                className={styles.mobileNavBtn}
+                onClick={navBtnHandler}
+                aria-label={`nav ${navOpen ? "close" : "open"} button`}
+            >
                 {!navOpen ? (
                     <FontAwesomeIcon icon={faBars} />
                 ) : (
