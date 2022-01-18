@@ -1,3 +1,4 @@
+import Footer from "./components/Footer/Footer";
 import NavBar from "./components/NavBar/NavBar";
 import AboutSection from "./Sections/AboutSection";
 import ContactSection from "./Sections/ContactSection";
@@ -12,6 +13,7 @@ const App = () => {
             <AboutSection />
             <ProjectsSection />
             <ContactSection />
+            <Footer />
         </>
     );
 };
