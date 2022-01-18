@@ -6,7 +6,7 @@
     position: fixed;
     inset: 0 0 auto 0;
     z-index: 100;
-    background-color: hsl(0 0% 80%);
+    background-color: transparent;
     transition: background 200ms ease-in, box-shadow 200ms ease-in;
 
     &.navScrolling {
@@ -43,7 +43,7 @@
             font-size: 1.75rem;
 
             &:hover {
-                color: hsl(110 70% 40%);
+                color: var(--secondary-color);
             }
         }
     }

@@ -6,13 +6,18 @@
     box-sizing: border-box;
 }
 
+:root {
+    --primary-color: hsl(0 0% 80%);
+    --secondary-color: hsl(110 70% 30%);
+}
+
 html {
     scroll-behavior: smooth;
 }
 
 body {
     font-family: "Roboto", sans-serif;
-    background: hsl(0 0% 80%);
+    background: var(--primary-color);
 }
 
 h1 {
@@ -35,7 +40,7 @@ button:active,
 button:focus,
 a:active,
 a:focus {
-    outline: solid 5px hsl(125 100% 20%);
+    outline: solid 5px var(--secondary-color);
     outline-offset: -1px;
 }
 
