@@ -1,9 +1,9 @@
 import styles from "./AboutSection.module.scss";
+import SectionWrapper from "../components/SectionWrapper/SectionWrapper";
 
 const AboutSection = () => {
     return (
-        <section className={styles.aboutWrapper} id="about">
-            <h1 className={styles.aboutHeader}>About</h1>
+        <SectionWrapper title="About">
             <p>
                 Full Stack Web Developer with a minor background in psychology
                 and engineering to build a better user experience on the web.
@@ -22,7 +22,7 @@ const AboutSection = () => {
                 skills on future projects as part of a driven team to create
                 memorable experiences for users on the web.
             </p>
-        </section>
+        </SectionWrapper>
     );
 };
 
