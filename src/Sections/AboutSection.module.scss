@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.imgContainer {
+    flex: 1 1 0;
+    text-align: center;
+}
+
+.boyImg {
+    width: 50%;
+}
+
+.content {
+    flex: 2 1 0;
+}
+
+.resumeButton {
+    border: none;
+    background-color: var(--secondary-color);
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 1em;
+    margin-block-start: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 300ms ease-in;
+
+    &:hover {
+        background-color: hsl(110 70% 20%);
+    }
+}
+
+@media (min-width: 968px) {
+    .container {
+        flex-direction: row;
+    }
+
+    .boyImg {
+        width: 100%;
+    }
+}
