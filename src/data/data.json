@@ -12,8 +12,8 @@
                 "LocationIQ",
                 "Leaflet"
             ],
-            "imgUrl": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80",
-            "imgAlt": "silver laptop on white table",
+            "imgUrl": "/assets/plan_and_go.png",
+            "imgAlt": "plan and go app homepage",
             "deployedUrl": "https://zirris512.github.io/project-1/",
             "github": "https://github.com/zirris512/project-1"
         },
@@ -31,8 +31,8 @@
                 "Express",
                 "Nodejs"
             ],
-            "imgUrl": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80",
-            "imgAlt": "silver laptop on white table",
+            "imgUrl": "/assets/epic_adventure.png",
+            "imgAlt": "epic adventure app homepage",
             "deployedUrl": "https://ku-project2-group3.herokuapp.com/",
             "github": "https://github.com/zirris512/Project2"
         },
@@ -48,8 +48,8 @@
                 "MySQL",
                 "Handlebars"
             ],
-            "imgUrl": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80",
-            "imgAlt": "silver laptop on white table",
+            "imgUrl": "/assets/eat_da_burger.png",
+            "imgAlt": "eat-da-burger homepage",
             "deployedUrl": "https://burgerappbse.herokuapp.com/",
             "github": "https://github.com/zirris512/burger"
         },
@@ -65,8 +65,8 @@
                 "Momentjs",
                 "Firebase"
             ],
-            "imgUrl": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80",
-            "imgAlt": "silver laptop on white table",
+            "imgUrl": "/assets/train_schedule.png",
+            "imgAlt": "train schedule app homepage",
             "deployedUrl": "https://zirris512.github.io/Train_Schedule/",
             "github": "https://github.com/zirris512/Train_Schedule"
         },
@@ -75,8 +75,8 @@
             "name": "Clicky Game",
             "description": "An app where the user tries to click on images that have not been previously clicked to increase their score. The goal is to achieve the highest score possible out of 12.",
             "technologies": ["HTML/CSS", "Javascript", "Reactjs", "Bootstrap"],
-            "imgUrl": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80",
-            "imgAlt": "silver laptop on white table",
+            "imgUrl": "/assets/clicky_game.png",
+            "imgAlt": "clicky game app homepage",
             "deployedUrl": "https://zirris512.github.io/clicky-game/",
             "github": "https://github.com/zirris512/clicky-game"
         },
@@ -98,8 +98,8 @@
                 "Passport",
                 "Bootstrap"
             ],
-            "imgUrl": "https://images.unsplash.com/photo-1593642632559-0c6d3fc62b89?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80",
-            "imgAlt": "silver laptop on white table",
+            "imgUrl": "/assets/manga_hub.png",
+            "imgAlt": "manga hub homepage",
             "deployedUrl": "https://mangaproject.herokuapp.com/",
             "github": "https://github.com/zirris512/manga_project"
         }
