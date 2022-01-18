@@ -1,4 +1,3 @@
-import styles from "./ProjectsSection.module.scss";
 import SingleProject from "../components/SingleProject/SingleProject";
 import SectionWrapper from "../components/SectionWrapper/SectionWrapper";
 import { projects } from "../data/data.json";

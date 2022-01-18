@@ -1,4 +1,3 @@
-import styles from "./AboutSection.module.scss";
 import SectionWrapper from "../components/SectionWrapper/SectionWrapper";
 
 const AboutSection = () => {
