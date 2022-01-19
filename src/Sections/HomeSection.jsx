@@ -6,9 +6,11 @@ import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 
 const HomeSection = () => {
     return (
-        <header className={styles.heroHeader} id="home">
+        <header className={styles.heroHeader}>
             <div className={styles.heroTitle}>
-                <h1>Hello, I am Brent.</h1>
+                <h1>
+                    Hello, I am <span className={styles.name}>Brent</span>.
+                </h1>
             </div>
             <div className={styles.imageContainer}>
                 <img

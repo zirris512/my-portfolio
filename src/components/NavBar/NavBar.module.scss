@@ -3,6 +3,7 @@
     justify-content: space-between;
     align-items: center;
     min-height: 5vh;
+    padding-inline: 10vw;
     position: fixed;
     inset: 0 0 auto 0;
     z-index: 100;
@@ -35,7 +36,7 @@
     .navListItems {
         list-style: none;
         display: flex;
-        gap: 1.5em;
+        gap: 4em;
 
         .navListItemLink {
             text-decoration: none;
@@ -59,7 +60,10 @@
     cursor: pointer;
 }
 
-@media (max-width: 968px) {
+@media (max-width: 900px) {
+    .nav {
+        padding-inline: 0;
+    }
     .navList {
         position: absolute;
         left: 50%;

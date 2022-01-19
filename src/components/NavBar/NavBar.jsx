@@ -32,7 +32,7 @@ const NavBar = () => {
         <nav className={`${styles.nav} ${scroll && styles.navScrolling}`}>
             <div className={styles.navHeader}>
                 <a
-                    href="#home"
+                    href="#"
                     className={styles.navHeaderLink}
                     onClick={() => setNavOpen(false)}
                 >
@@ -43,7 +43,7 @@ const NavBar = () => {
                 <ul className={styles.navListItems}>
                     <li>
                         <a
-                            href="#home"
+                            href="#"
                             className={styles.navListItemLink}
                             onClick={navBtnHandler}
                         >

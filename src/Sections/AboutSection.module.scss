@@ -10,7 +10,7 @@
 }
 
 .boyImg {
-    width: 50%;
+    width: 60%;
 }
 
 .content {
@@ -33,7 +33,7 @@
     }
 }
 
-@media (min-width: 968px) {
+@media (min-width: 1200px) {
     .container {
         flex-direction: row;
     }

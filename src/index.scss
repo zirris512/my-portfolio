@@ -21,37 +21,57 @@ body {
 }
 
 h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 
 h2 {
-    font-size: 2.5rem;
-}
-
-h3 {
     font-size: 2rem;
 }
 
+h3 {
+    font-size: 1.5rem;
+}
+
 p {
-    font-size: 1.25rem;
+    font-size: 1rem;
 }
 
 button:active,
 button:focus,
 a:active,
-a:focus,
-input:active,
-input:focus {
+a:focus {
     outline: solid 4px var(--secondary-color);
 }
 
-@media (min-width: 968px) {
+@media (max-width: 1199px) and (min-width: 700px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1.25rem;
+    }
+}
+
+@media (min-width: 1200px) {
     h1 {
         font-size: 5rem;
     }
 
     h2 {
         font-size: 3.5rem;
+    }
+
+    h3 {
+        font-size: 2.5rem;
     }
 
     p {
