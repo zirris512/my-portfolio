@@ -1,9 +1,11 @@
 import styles from "./Footer.module.scss";
 
 const Footer = () => {
+    const year = new Date().getFullYear();
+
     return (
         <footer className={styles.footer}>
-            <p>Brent Edwards &copy; {2022}</p>
+            <p>Brent Edwards &copy; {year}</p>
         </footer>
     );
 };
