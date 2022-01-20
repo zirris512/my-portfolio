@@ -10,11 +10,6 @@ const SingleProject = ({ projectData }) => {
     return (
         <article className={styles.projectContainer}>
             <div className={styles.projectImgContainer}>
-                {/* <img
-                    src={projectData.imgUrl}
-                    alt={projectData.imgAlt}
-                    className={styles.projectImg}
-                /> */}
                 <ImageLoading
                     image={projectData.imgUrl}
                     imgAlt={projectData.imgAlt}

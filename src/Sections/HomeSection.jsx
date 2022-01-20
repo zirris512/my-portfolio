@@ -14,21 +14,6 @@ const HomeSection = () => {
                 </h1>
             </div>
             <div className={styles.imageContainer}>
-                {/* <img
-                    src={profilePic}
-                    alt="Profile picture"
-                    className={styles.profilePic}
-                    onLoad={handleLoading}
-                    style={{ display: isLoading ? "none" : "block" }}
-                />
-                {isLoading && (
-                    <FontAwesomeIcon
-                        icon={faSpinner}
-                        spin
-                        size="lg"
-                        style={{ display: isLoading ? "block" : "none" }}
-                    />
-                )} */}
                 <ImageLoading
                     image={profilePic}
                     imgAlt="profile picture"
