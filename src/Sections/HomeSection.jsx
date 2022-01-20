@@ -3,6 +3,7 @@ import profilePic from "/assets/profile-pic.jpg";
 import ContactLinks from "../components/ContactLinks/ContactLinks";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
+import ImageLoading from "../components/ImageLoading/ImageLoading";
 
 const HomeSection = () => {
     return (
@@ -13,10 +14,25 @@ const HomeSection = () => {
                 </h1>
             </div>
             <div className={styles.imageContainer}>
-                <img
+                {/* <img
                     src={profilePic}
                     alt="Profile picture"
                     className={styles.profilePic}
+                    onLoad={handleLoading}
+                    style={{ display: isLoading ? "none" : "block" }}
+                />
+                {isLoading && (
+                    <FontAwesomeIcon
+                        icon={faSpinner}
+                        spin
+                        size="lg"
+                        style={{ display: isLoading ? "block" : "none" }}
+                    />
+                )} */}
+                <ImageLoading
+                    image={profilePic}
+                    imgAlt="profile picture"
+                    imgClass={styles.profilePic}
                 />
             </div>
             <div className={styles.heroSubtitle}>
