@@ -37,10 +37,9 @@ const AboutSection = () => {
                     <a
                         href="https://docs.google.com/document/d/1ivkVfy2Kq8K7yvWJ6UAEYLeBovfalzOZm9xEpAtaHcY/edit?usp=sharing"
                         target="_blank"
+                        className={styles.resumeButton}
                     >
-                        <button className={styles.resumeButton}>
-                            View Resume
-                        </button>
+                        View Resume
                     </a>
                 </div>
             </div>

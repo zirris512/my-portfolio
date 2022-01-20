@@ -36,9 +36,7 @@ p {
     font-size: 1rem;
 }
 
-button:active,
 button:focus,
-a:active,
 a:focus {
     outline: solid 4px var(--secondary-color);
 }

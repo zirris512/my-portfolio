@@ -15,21 +15,27 @@
 
 .content {
     flex: 2 1 0;
-}
 
-.resumeButton {
-    border: none;
-    background-color: var(--secondary-color);
-    color: #fff;
-    font-size: 1.25rem;
-    padding: 1em;
-    margin-block-start: 1rem;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: background-color 300ms ease-in;
+    .resumeButton {
+        display: inline-block;
+        background-color: var(--secondary-color);
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.25rem;
+        padding: 1em;
+        margin-block-start: 1rem;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: background-color 200ms ease-in;
 
-    &:hover {
-        background-color: hsl(110 70% 20%);
+        &:hover,
+        &:focus {
+            background-color: hsl(110 70% 20%);
+        }
+
+        &:active {
+            transform: scale(0.95);
+        }
     }
 }
 
