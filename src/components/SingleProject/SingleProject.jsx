@@ -18,7 +18,7 @@ const SingleProject = ({ projectData }) => {
             </div>
             <div className={styles.projectContent}>
                 <div>
-                    <h3>{projectData.name}</h3>
+                    <h2>{projectData.name}</h2>
                     <p className={styles.techList}>{technologiesString}</p>
                 </div>
                 <div>
@@ -26,7 +26,7 @@ const SingleProject = ({ projectData }) => {
                     <a
                         href={projectData.deployedUrl}
                         target="_blank"
-                        aria-label="project deployment link"
+                        aria-label={`${projectData.name} deployment link`}
                         className={styles.projectLink}
                     >
                         <FontAwesomeIcon icon={faGlobe} />
@@ -34,7 +34,7 @@ const SingleProject = ({ projectData }) => {
                     <a
                         href={projectData.github}
                         target="_blank"
-                        aria-label="project github link"
+                        aria-label={`${projectData.name} github link`}
                         className={styles.projectLink}
                     >
                         <FontAwesomeIcon icon={faGithub} />
