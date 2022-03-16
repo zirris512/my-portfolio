@@ -61,6 +61,15 @@ const NavBar = () => {
                     </li>
                     <li>
                         <a
+                            href="#skills"
+                            className={styles.navListItemLink}
+                            onClick={navBtnHandler}
+                        >
+                            Skills
+                        </a>
+                    </li>
+                    <li>
+                        <a
                             href="#projects"
                             className={styles.navListItemLink}
                             onClick={navBtnHandler}
