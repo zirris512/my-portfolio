@@ -42,6 +42,7 @@
             text-decoration: none;
             color: hsl(0 0% 0%);
             font-size: 1.75rem;
+            padding: 0.3em;
 
             &:hover {
                 color: var(--secondary-color);
@@ -60,7 +61,7 @@
     cursor: pointer;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
     .nav {
         padding-inline: 0;
     }
@@ -78,7 +79,7 @@
         transition: transform 500ms ease-in-out, opacity 500ms ease-in-out;
 
         &.active {
-            transform: translateX(70%);
+            transform: translateX(100%);
             opacity: 0;
             pointer-events: none;
         }

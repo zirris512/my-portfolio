@@ -23,7 +23,7 @@ const NavBar = () => {
     }, [scroll, setScroll]);
 
     const navBtnHandler = (e) => {
-        if (window.innerWidth <= 968) {
+        if (window.innerWidth <= 1000) {
             setNavOpen((val) => !val);
         }
     };
