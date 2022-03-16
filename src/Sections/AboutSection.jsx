@@ -8,7 +8,7 @@ const AboutSection = () => {
                 <div className={styles.imgContainer}>
                     <img
                         src="/assets/pc_geek.svg"
-                        alt="drawing of boy on pc"
+                        alt="graphic of boy on pc"
                         className={styles.boyImg}
                     />
                 </div>
