@@ -4,14 +4,7 @@
             "id": 1,
             "name": "Plan and Go",
             "description": "Plan and Go is an app where users can look for attractions at a searched destination and find nearby hotels.",
-            "technologies": [
-                "HTML/CSS",
-                "Javascript",
-                "Bulma",
-                "JQuery",
-                "LocationIQ",
-                "Leaflet"
-            ],
+            "technologies": ["HTML/CSS", "Javascript", "Bulma", "JQuery", "LocationIQ", "Leaflet"],
             "imgUrl": "/assets/plan_and_go.png",
             "imgAlt": "plan and go app homepage",
             "deployedUrl": "https://zirris512.github.io/project-1/",
@@ -19,25 +12,6 @@
         },
         {
             "id": 2,
-            "name": "Epic Adventure!",
-            "description": "Epic Adventure is a choose your own adventure story. The user makes choices and winds up at an ending based on those choices.",
-            "technologies": [
-                "HTML/CSS",
-                "Javascript",
-                "JQuery",
-                "Pug",
-                "MySQL",
-                "Sequelize",
-                "Express",
-                "Nodejs"
-            ],
-            "imgUrl": "/assets/epic_adventure.png",
-            "imgAlt": "epic adventure app homepage",
-            "deployedUrl": "https://ku-project2-group3.herokuapp.com/",
-            "github": "https://github.com/zirris512/Project2"
-        },
-        {
-            "id": 3,
             "name": "Eat-da-Burger",
             "description": "A small project where the user could add items to a list. Then, remove and add them to another list from the database.",
             "technologies": [
@@ -50,11 +24,11 @@
             ],
             "imgUrl": "/assets/eat_da_burger.png",
             "imgAlt": "eat-da-burger homepage",
-            "deployedUrl": "https://burgerappbse.herokuapp.com/",
+            "deployedUrl": "https://eatdaburger-dzrj.onrender.com",
             "github": "https://github.com/zirris512/burger"
         },
         {
-            "id": 4,
+            "id": 3,
             "name": "Train Schedule",
             "description": "A small project where the user could enter values into a form and update the table with the new values and times.",
             "technologies": [
@@ -71,7 +45,7 @@
             "github": "https://github.com/zirris512/Train_Schedule"
         },
         {
-            "id": 5,
+            "id": 4,
             "name": "Clicky Game",
             "description": "An app where the user tries to click on images that have not been previously clicked to increase their score. The goal is to achieve the highest score possible out of 12.",
             "technologies": ["HTML/CSS", "Javascript", "Reactjs", "Bootstrap"],
@@ -81,7 +55,7 @@
             "github": "https://github.com/zirris512/clicky-game"
         },
         {
-            "id": 6,
+            "id": 5,
             "name": "Manga Hub",
             "description": "An app where the user can search for their favorite anime or manga. The user can create an account or login to an existing account to add/remove favorites.",
             "technologies": [
@@ -100,7 +74,7 @@
             ],
             "imgUrl": "/assets/manga_hub.png",
             "imgAlt": "manga hub homepage",
-            "deployedUrl": "https://mangaproject.herokuapp.com/",
+            "deployedUrl": "https://mangahub-sftd.onrender.com",
             "github": "https://github.com/zirris512/manga_project"
         }
     ]
