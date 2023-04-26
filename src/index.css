@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--primary-color: hsl(0 0% 85%);
+	--secondary-color: hsl(110 70% 30%);
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	background: var(--primary-color);
+}
+
+h1 {
+	font-size: 2.25rem;
+}
+
+h2 {
+	font-size: 1.25rem;
+}
+
+h3 {
+	font-size: 1rem;
+}
+
+p {
+	font-size: 1rem;
+}
+
+button:focus,
+a:focus {
+	outline: solid 4px var(--secondary-color);
+}
+
+@media (max-width: 1199px) and (min-width: 700px) {
+	h1 {
+		font-size: 2.5rem;
+	}
+
+	h2 {
+		font-size: 1.5rem;
+	}
+
+	h3 {
+		font-size: 1.25rem;
+	}
+
+	p {
+		font-size: 1rem;
+	}
+}
+
+@media (min-width: 1200px) {
+	h1 {
+		font-size: 3rem;
+	}
+
+	h2 {
+		font-size: 2rem;
+	}
+
+	h3 {
+		font-size: 1.75rem;
+	}
+
+	p {
+		font-size: 1.25rem;
+	}
+}
