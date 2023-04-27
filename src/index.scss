@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@use "variables" as v;
 
 *,
 *::after,
@@ -10,19 +8,13 @@
 	box-sizing: border-box;
 }
 
-:root {
-	--background-color: hsl(0 0% 85%);
-	--primary-color: hsl(138, 71%, 62%);
-	--secondary-color: hsl(318, 71%, 62%);
-}
-
 html {
 	scroll-behavior: smooth;
 }
 
 body {
 	font-family: "Roboto", sans-serif;
-	background: var(--background-color);
+	background-color: v.$background-color;
 }
 
 h1,
@@ -55,25 +47,7 @@ p {
 
 button:focus,
 a:focus {
-	outline: solid 4px var(--secondary-color);
-}
-
-@media (max-width: 1199px) and (min-width: 700px) {
-	h1 {
-		font-size: 2.5rem;
-	}
-
-	h2 {
-		font-size: 1.5rem;
-	}
-
-	h3 {
-		font-size: 1.25rem;
-	}
-
-	p {
-		font-size: 1rem;
-	}
+	outline: solid 4px v.$secondary-color;
 }
 
 @media (min-width: 1200px) {
