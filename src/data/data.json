@@ -1,81 +1,86 @@
 {
-    "projects": [
-        {
-            "id": 1,
-            "name": "Plan and Go",
-            "description": "Plan and Go is an app where users can look for attractions at a searched destination and find nearby hotels.",
-            "technologies": ["HTML/CSS", "Javascript", "Bulma", "JQuery", "LocationIQ", "Leaflet"],
-            "imgUrl": "/assets/plan_and_go.png",
-            "imgAlt": "plan and go app homepage",
-            "deployedUrl": "https://zirris512.github.io/project-1/",
-            "github": "https://github.com/zirris512/project-1"
-        },
-        {
-            "id": 2,
-            "name": "Eat-da-Burger",
-            "description": "A small project where the user could add items to a list. Then, remove and add them to another list from the database.",
-            "technologies": [
-                "HTML/CSS",
-                "Javascript",
-                "JQuery",
-                "Bootstrap",
-                "MySQL",
-                "Handlebars"
-            ],
-            "imgUrl": "/assets/eat_da_burger.png",
-            "imgAlt": "eat-da-burger homepage",
-            "deployedUrl": "https://eatdaburger-dzrj.onrender.com",
-            "github": "https://github.com/zirris512/burger"
-        },
-        {
-            "id": 3,
-            "name": "Train Schedule",
-            "description": "A small project where the user could enter values into a form and update the table with the new values and times.",
-            "technologies": [
-                "HTML/CSS",
-                "Javascript",
-                "JQuery",
-                "Bootstrap",
-                "Momentjs",
-                "Firebase"
-            ],
-            "imgUrl": "/assets/train_schedule.png",
-            "imgAlt": "train schedule app homepage",
-            "deployedUrl": "https://zirris512.github.io/Train_Schedule/",
-            "github": "https://github.com/zirris512/Train_Schedule"
-        },
-        {
-            "id": 4,
-            "name": "Clicky Game",
-            "description": "An app where the user tries to click on images that have not been previously clicked to increase their score. The goal is to achieve the highest score possible out of 12.",
-            "technologies": ["HTML/CSS", "Javascript", "Reactjs", "Bootstrap"],
-            "imgUrl": "/assets/clicky_game.png",
-            "imgAlt": "clicky game app homepage",
-            "deployedUrl": "https://zirris512.github.io/clicky-game/",
-            "github": "https://github.com/zirris512/clicky-game"
-        },
-        {
-            "id": 5,
-            "name": "Manga Hub",
-            "description": "An app where the user can search for their favorite anime or manga. The user can create an account or login to an existing account to add/remove favorites.",
-            "technologies": [
-                "HTML/CSS",
-                "Javascript",
-                "Reactjs",
-                "React-Router",
-                "Apollo",
-                "MongoDB",
-                "Mongoose",
-                "Nodejs",
-                "Express",
-                "GraphQL",
-                "Passport",
-                "Bootstrap"
-            ],
-            "imgUrl": "/assets/manga_hub.png",
-            "imgAlt": "manga hub homepage",
-            "deployedUrl": "https://mangahub-sftd.onrender.com",
-            "github": "https://github.com/zirris512/manga_project"
-        }
-    ]
+	"projects": [
+		{
+			"id": 1,
+			"name": "Plan and Go",
+			"description": "Plan and Go is an app where users can look for attractions at a searched destination and find nearby hotels.",
+			"technologies": ["HTML/CSS", "Javascript", "Bulma", "JQuery", "LocationIQ", "Leaflet"],
+			"imgUrl": "/assets/plan_and_go.png",
+			"imgAlt": "plan and go app homepage",
+			"deployedUrl": "https://zirris512.github.io/project-1/",
+			"github": "https://github.com/zirris512/project-1"
+		},
+		{
+			"id": 2,
+			"name": "Eat-da-Burger",
+			"description": "A small project where the user could add items to a list. Then, remove and add them to another list from the database.",
+			"technologies": ["HTML/CSS", "Javascript", "JQuery", "Bootstrap", "MySQL", "Handlebars"],
+			"imgUrl": "/assets/eat_da_burger.png",
+			"imgAlt": "eat-da-burger homepage",
+			"deployedUrl": "https://eatdaburger-dzrj.onrender.com",
+			"github": "https://github.com/zirris512/burger"
+		},
+		{
+			"id": 3,
+			"name": "Train Schedule",
+			"description": "A small project where the user could enter values into a form and update the table with the new values and times.",
+			"technologies": ["HTML/CSS", "Javascript", "JQuery", "Bootstrap", "Momentjs", "Firebase"],
+			"imgUrl": "/assets/train_schedule.png",
+			"imgAlt": "train schedule app homepage",
+			"deployedUrl": "https://zirris512.github.io/Train_Schedule/",
+			"github": "https://github.com/zirris512/Train_Schedule"
+		},
+		{
+			"id": 4,
+			"name": "Clicky Game",
+			"description": "An app where the user tries to click on images that have not been previously clicked to increase their score. The goal is to achieve the highest score possible out of 12.",
+			"technologies": ["HTML/CSS", "Javascript", "Reactjs", "Bootstrap"],
+			"imgUrl": "/assets/clicky_game.png",
+			"imgAlt": "clicky game app homepage",
+			"deployedUrl": "https://zirris512.github.io/clicky-game/",
+			"github": "https://github.com/zirris512/clicky-game"
+		},
+		{
+			"id": 5,
+			"name": "Manga Hub",
+			"description": "An app where the user can search for their favorite anime or manga. The user can create an account or login to an existing account to add/remove favorites.",
+			"technologies": [
+				"HTML/CSS",
+				"Javascript",
+				"Reactjs",
+				"React-Router",
+				"Apollo",
+				"MongoDB",
+				"Mongoose",
+				"Nodejs",
+				"Express",
+				"GraphQL",
+				"Passport",
+				"Bootstrap"
+			],
+			"imgUrl": "/assets/manga_hub.png",
+			"imgAlt": "manga hub homepage",
+			"deployedUrl": "https://mangahub-sftd.onrender.com",
+			"github": "https://github.com/zirris512/manga_project"
+		},
+		{
+			"id": 6,
+			"name": "SmartBrain",
+			"description": "A project where the user can sign in and provide an image url that an AI can search for faces. The faces will be highlighted and a counter will keep track of how many images a user successfully provides.",
+			"technologies": [
+				"Reactjs",
+				"PostgreSQL",
+				"Typescript",
+				"Supabase",
+				"Knex.js",
+				"Express",
+				"Tachyons",
+				"Clarifai"
+			],
+			"imgUrl": "/assets/smart_brain.png",
+			"imgAlt": "smart brain home page",
+			"deployedUrl": "https://smartbrain-i10z.onrender.com",
+			"github": "https://github.com/zirris512/SmartBrain"
+		}
+	]
 }
