@@ -18,19 +18,23 @@
 
     .resumeButton {
         display: inline-block;
-        background-color: var(--secondary-color);
+        background-color: var(--primary-color);
         text-decoration: none;
-        color: #fff;
+        color: #000;
         font-size: 1.25rem;
+        font-weight: bold;
         padding: 1em;
         margin-block-start: 1rem;
         border-radius: 10px;
+        box-shadow: 2px 2px 5px #000;
         cursor: pointer;
         transition: background-color 200ms ease-in;
 
         &:hover,
         &:focus {
-            background-color: hsl(110 70% 20%);
+            // color: #fff;
+            // background-color: hsl(110 70% 20%);
+            background-color: var(--secondary-color);
         }
 
         &:active {

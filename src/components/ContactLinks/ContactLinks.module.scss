@@ -20,7 +20,8 @@
 .link:hover,
 .link:focus {
     color: black;
-    background: hsla(0, 0%, 30%, 0.3);
+    // background: hsla(0, 0%, 30%, 0.3);
+    background-color: var(--secondary-color);
 }
 
 @media (min-width: 900px) {
