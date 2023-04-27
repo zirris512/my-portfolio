@@ -1,52 +1,52 @@
 @use "../variables" as v;
 
 .container {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
 }
 
 .imgContainer {
-    flex: 1 1 0;
-    text-align: center;
+	flex: 1 1 0;
+	text-align: center;
 }
 
 .boyImg {
-    width: clamp(40%, 400px, 70%);
+	width: clamp(40%, 400px, 70%);
 }
 
 .content {
-    flex: 2 1 0;
+	flex: 2 1 0;
 
-    .resumeButton {
-        display: inline-block;
-        background-color: v.$primary-color;
-        text-decoration: none;
-        color: #000;
-        font-size: 1.25rem;
-        font-weight: bold;
-        padding: 1em;
-        margin-block-start: 1rem;
-        border-radius: 10px;
-        box-shadow: 2px 2px 5px #000;
-        cursor: pointer;
-        transition: background-color 200ms ease-in;
+	.resumeButton {
+		display: inline-block;
+		background-color: v.$primary-color;
+		text-decoration: none;
+		color: #000;
+		font-size: 1.25rem;
+		font-weight: bold;
+		padding: 1em;
+		margin-block-start: 1rem;
+		border-radius: 10px;
+		box-shadow: 2px 2px 5px #000;
+		cursor: pointer;
+		transition: background-color 200ms ease-in;
 
-        &:hover,
-        &:focus {
-            // color: #fff;
-            // background-color: hsl(110 70% 20%);
-            background-color: v.$secondary-color;
-        }
+		&:hover,
+		&:focus {
+			// color: #fff;
+			// background-color: hsl(110 70% 20%);
+			background-color: v.$secondary-color;
+		}
 
-        &:active {
-            transform: scale(0.95);
-        }
-    }
+		&:active {
+			transform: scale(0.95);
+		}
+	}
 }
 
 @media (min-width: 1500px) {
-    .container {
-        flex-direction: row;
-    }
+	.container {
+		flex-direction: row;
+	}
 }

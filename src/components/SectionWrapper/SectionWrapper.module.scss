@@ -1,30 +1,30 @@
 @use "../../variables" as v;
 
 .wrapper {
-    margin-inline: 5rem;
-    padding: 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: v.$background-color
+	margin-inline: 5rem;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: v.$background-color;
 }
 
 .header {
-    padding-block: 5rem;
-    text-align: center;
-    color: #000;
-    margin-block: 5rem;
-    width: 100%;
-    border-radius: 50%;
-    background-color: v.$primary-color;
-    box-shadow: 0 0 20px v.$primary-color;
-    text-shadow: 2px 2px 5px v.$secondary-color;
+	padding-block: 5rem;
+	text-align: center;
+	color: #000;
+	margin-block: 5rem;
+	width: 100%;
+	border-radius: 50%;
+	background-color: v.$primary-color;
+	box-shadow: 0 0 20px v.$primary-color;
+	text-shadow: 2px 2px 5px v.$secondary-color;
 }
 
 @media (min-width: 1200px) {
-    .wrapper {
-        margin-inline: 20rem;
-        padding: 5rem;
-    }
+	.wrapper {
+		margin-inline: 20rem;
+		padding: 5rem;
+	}
 }

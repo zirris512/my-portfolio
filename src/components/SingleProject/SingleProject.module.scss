@@ -1,62 +1,62 @@
 @use "../../variables" as v;
 
 .projectContainer {
-    margin-bottom: 2rem;
+	margin-bottom: 2rem;
 }
 
 .projectImgContainer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
-    box-shadow: 5px 5px 20px hsl(0 0% 0%);
-    overflow: hidden;
-    margin-bottom: 2rem;
-    height: fit-content;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 10px;
+	box-shadow: 5px 5px 20px hsl(0 0% 0%);
+	overflow: hidden;
+	margin-bottom: 2rem;
+	height: fit-content;
 }
 
 .projectImg {
-    display: block;
-    width: 100%;
+	display: block;
+	width: 100%;
 }
 
 .techList {
-    font-size: 1rem;
-    font-weight: bold;
-    color: hsl(0 0% 30%);
+	font-size: 1rem;
+	font-weight: bold;
+	color: hsl(0 0% 30%);
 }
 
 .projectLink {
-    color: hsl(0 0% 0%);
-    font-size: 1.5rem;
-    margin-right: 1rem;
-    transition: color 300ms ease-in-out;
+	color: hsl(0 0% 0%);
+	font-size: 1.5rem;
+	margin-right: 1rem;
+	transition: color 300ms ease-in-out;
 
-    &:hover,
-    &:focus {
-        color: v.$secondary-color;
-    }
+	&:hover,
+	&:focus {
+		color: v.$secondary-color;
+	}
 }
 
 @media (min-width: 900px) {
-    .projectLink {
-        font-size: 2rem;
-    }
+	.projectLink {
+		font-size: 2rem;
+	}
 
-    .projectContainer {
-        display: flex;
-        gap: 2rem;
-    }
+	.projectContainer {
+		display: flex;
+		gap: 2rem;
+	}
 
-    .projectImgContainer {
-        flex: 1 1 0;
-        margin-bottom: 0;
-    }
+	.projectImgContainer {
+		flex: 1 1 0;
+		margin-bottom: 0;
+	}
 
-    .projectContent {
-        flex: 2 1 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-    }
+	.projectContent {
+		flex: 2 1 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+	}
 }
