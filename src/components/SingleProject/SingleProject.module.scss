@@ -1,3 +1,5 @@
+@use "../../variables" as v;
+
 .projectContainer {
     margin-bottom: 2rem;
 }
@@ -32,7 +34,7 @@
 
     &:hover,
     &:focus {
-        color: var(--secondary-color);
+        color: v.$secondary-color;
     }
 }
 
