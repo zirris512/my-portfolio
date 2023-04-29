@@ -5,12 +5,25 @@
 	justify-content: space-between;
 	align-items: center;
 	min-height: 5vh;
-	padding-inline: 15vw;
+	padding-inline: 15rem;
 	position: fixed;
 	inset: 0 0 auto 0;
 	z-index: 100;
 	background-color: transparent;
 	transition: background 200ms ease-in, box-shadow 200ms ease-in;
+
+	@media (max-width: 1000px) {
+		& {
+			padding-inline: 2rem;
+		}
+	}
+
+	@media (max-width: 1200px) and (min-width: 1001px) {
+		& {
+			padding-inline-end: 2rem;
+			padding-inline-start: 15rem;
+		}
+	}
 
 	&.navScrolling {
 		// background-color: hsl(0 0% 95%);
@@ -39,7 +52,7 @@
 	.navListItems {
 		list-style: none;
 		display: flex;
-		gap: 4em;
+		gap: 3rem;
 
 		.navListItemLink {
 			text-decoration: none;
@@ -65,9 +78,6 @@
 }
 
 @media (max-width: 1200px) {
-	.nav {
-		padding-inline: 0;
-	}
 	.navList {
 		position: absolute;
 		left: 50%;
