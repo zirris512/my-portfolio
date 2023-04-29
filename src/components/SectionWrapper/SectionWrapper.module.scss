@@ -1,8 +1,6 @@
 @use "../../variables" as v;
 
 .wrapper {
-	margin-inline: 5rem;
-	padding: 2rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -11,20 +9,23 @@
 }
 
 .header {
-	padding-block: 5rem;
+	padding-block: 7rem;
 	text-align: center;
 	color: #000;
-	margin-block: 5rem;
+	margin-block: 6rem;
 	width: 100%;
-	border-radius: 50%;
+	// border-radius: 50%;
 	background-color: v.$primary-color;
-	box-shadow: 0 0 20px v.$primary-color;
+	box-shadow: 0 0 20px 5px v.$primary-color;
 	text-shadow: 2px 2px 5px v.$secondary-color;
 }
 
+.container {
+	margin-inline: 5rem;
+}
+
 @media (min-width: 1200px) {
-	.wrapper {
+	.container {
 		margin-inline: 20rem;
-		padding: 5rem;
 	}
 }
