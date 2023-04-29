@@ -12,7 +12,7 @@
 }
 
 .boyImg {
-	width: clamp(40%, 400px, 70%);
+	width: clamp(40%, 400px, 50%);
 }
 
 .content {
@@ -45,8 +45,8 @@
 	}
 }
 
-@media (min-width: 1500px) {
-	.container {
-		flex-direction: row;
-	}
-}
+// @media (min-width: 1500px) {
+// 	.container {
+// 		flex-direction: row;
+// 	}
+// }
