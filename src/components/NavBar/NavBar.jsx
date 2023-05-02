@@ -1,6 +1,8 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { useEffect, useState } from "react";
+
+import Logo from "/assets/Brent-logo-black.png";
 import styles from "./NavBar.module.scss";
 
 const NavBar = () => {
@@ -32,7 +34,7 @@ const NavBar = () => {
 		<nav className={`${styles.nav} ${scroll && styles.navScrolling}`}>
 			<div className={styles.navHeader}>
 				<a href="#" className={styles.navHeaderLink} onClick={() => setNavOpen(false)}>
-					Brent Edwards
+					<img src={Logo} alt="logo" width={70} />
 				</a>
 			</div>
 			<div className={`${styles.navList} ${!navOpen && styles.active}`}>

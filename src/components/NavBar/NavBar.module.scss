@@ -34,16 +34,7 @@
 }
 
 .navHeader {
-	width: min-content;
-	padding-block: 1em;
-	text-align: center;
-
-	.navHeaderLink {
-		color: hsl(0 0% 0%);
-		text-decoration: none;
-		font-size: 1.5rem;
-		font-weight: bold;
-	}
+	padding-block-start: 1em;
 }
 
 .navList {
