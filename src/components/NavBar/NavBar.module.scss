@@ -35,6 +35,14 @@
 
 .navHeader {
 	padding-block-start: 1em;
+
+	& .navHeaderLinkImg {
+		width: 70px;
+
+		@media (max-width: 1000px) {
+			width: 50px;
+		}
+	}
 }
 
 .navList {

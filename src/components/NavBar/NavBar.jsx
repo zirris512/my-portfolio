@@ -33,8 +33,8 @@ const NavBar = () => {
 	return (
 		<nav className={`${styles.nav} ${scroll && styles.navScrolling}`}>
 			<div className={styles.navHeader}>
-				<a href="#" className={styles.navHeaderLink} onClick={() => setNavOpen(false)}>
-					<img src={Logo} alt="logo" width={70} />
+				<a href="#" onClick={() => setNavOpen(false)}>
+					<img src={Logo} alt="logo" className={styles.navHeaderLinkImg} />
 				</a>
 			</div>
 			<div className={`${styles.navList} ${!navOpen && styles.active}`}>
