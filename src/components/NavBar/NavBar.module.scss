@@ -26,15 +26,11 @@
 	}
 }
 
-.navHeader {
-	padding-block-start: 1em;
+.navHeader .navHeaderLinkImg {
+	width: 70px;
 
-	& .navHeaderLinkImg {
-		width: 70px;
-
-		@media (max-width: 1000px) {
-			width: 50px;
-		}
+	@media (max-width: 1000px) {
+		width: 50px;
 	}
 }
 

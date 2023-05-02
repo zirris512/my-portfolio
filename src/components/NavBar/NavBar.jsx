@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 import { useEffect, useState } from "react";
 
-import Logo from "/assets/Brent-logo-black.png";
+import Logo from "/assets/brent-logo.png";
 import styles from "./NavBar.module.scss";
 
 const NavBar = () => {
