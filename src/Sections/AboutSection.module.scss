@@ -17,30 +17,31 @@
 
 .content {
 	flex: 2 1 0;
+	text-align: center;
 
 	.resumeButton {
 		display: inline-block;
-		background-color: v.$primary-color;
+		background-color: v.$background-color;
 		text-decoration: none;
 		color: #000;
 		font-size: 1.25rem;
 		font-weight: bold;
 		padding: 1em;
-		margin-block-start: 1rem;
+		margin-block-start: 2rem;
+		border: 3px solid v.$button-border;
 		border-radius: 10px;
-		box-shadow: 2px 2px 5px #000;
+		box-shadow: 2px 2px 3px #444;
 		cursor: pointer;
 		transition: background-color 200ms ease-in;
 
 		&:hover,
 		&:focus {
-			// color: #fff;
-			// background-color: hsl(110 70% 20%);
-			background-color: v.$secondary-color;
+			background-color: v.$primary-color;
+			color: #fff;
 		}
 
 		&:active {
-			transform: scale(0.95);
+			transform: translate(3px, 3px);
 		}
 	}
 }

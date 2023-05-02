@@ -9,8 +9,8 @@
 	position: fixed;
 	inset: 0 0 auto 0;
 	z-index: 100;
-	background-color: transparent;
-	transition: background 200ms ease-in, box-shadow 200ms ease-in;
+	background-color: v.$primary-color;
+	box-shadow: 0 5px 10px hsl(0 0% 20% / 0.5);
 
 	@media (max-width: 1000px) {
 		& {
@@ -23,13 +23,6 @@
 			padding-inline-end: 2rem;
 			padding-inline-start: 15rem;
 		}
-	}
-
-	&.navScrolling {
-		// background-color: hsl(0 0% 95%);
-		background-color: v.$primary-color;
-		box-shadow: 0 5px 10px hsl(0 0% 20% / 0.5);
-		border-radius: 0 0 5px 5px;
 	}
 }
 
@@ -55,12 +48,12 @@
 
 		.navListItemLink {
 			text-decoration: none;
-			color: hsl(0 0% 0%);
+			color: v.$background-color;
 			font-size: 1.75rem;
 			padding: 0.3em;
 
 			&:hover {
-				color: v.$secondary-color;
+				text-shadow: 2px 2px 5px #000;
 			}
 		}
 	}
@@ -85,7 +78,7 @@
 		bottom: -100vh;
 		padding: 1.5em;
 		border-radius: 0 0 5px 5px;
-		background-color: hsl(0 0% 95%);
+		background-color: v.$primary-color;
 		z-index: -1;
 		transform-origin: right;
 		transition: transform 500ms ease-in-out, opacity 500ms ease-in-out;
