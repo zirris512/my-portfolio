@@ -21,11 +21,11 @@
 }
 
 .container {
-	margin-inline: 5rem;
+	margin-inline: v.$side-spacing-mobile;
 }
 
 @media (min-width: 1000px) {
 	.container {
-		margin-inline: 15rem;
+		margin-inline: v.$side-spacing-desktop;
 	}
 }
