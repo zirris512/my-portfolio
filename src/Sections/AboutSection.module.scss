@@ -6,18 +6,14 @@
 	gap: 2rem;
 }
 
-.imgContainer {
-	flex: 1 1 0;
-	text-align: center;
-}
-
-.boyImg {
-	width: clamp(40%, 400px, 50%);
-}
-
 .content {
 	flex: 2 1 0;
 	text-align: center;
+	margin: 0 auto;
+
+	@media (min-width: 1000px) {
+		width: 70%;
+	}
 
 	.resumeButton {
 		display: inline-block;
