@@ -37,9 +37,13 @@ $content-divide: 1rem;
 
 .projectLink {
 	color: hsl(0 0% 0%);
-	font-size: 2rem;
+	font-size: 1.5rem;
 	margin-right: 1rem;
 	transition: color 300ms ease-in-out;
+
+	@media (min-width: 1000px) {
+		font-size: 2rem;
+	}
 
 	&:hover,
 	&:focus {
