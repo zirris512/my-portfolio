@@ -3,7 +3,6 @@
 	grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
 	justify-content: center;
 	gap: 2rem;
-	padding-block-end: 1rem;
 
 	@media (max-width: 600px) {
 		grid-template-columns: 1fr;
