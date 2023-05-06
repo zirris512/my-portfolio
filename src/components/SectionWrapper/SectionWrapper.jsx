@@ -13,7 +13,7 @@ const SectionWrapper = (props) => {
 					observer.unobserve(sectionRef.current);
 				}
 			},
-			{ rootMargin: "-300px" }
+			{ threshold: 0.1 }
 		);
 
 		observer.observe(sectionRef.current);
