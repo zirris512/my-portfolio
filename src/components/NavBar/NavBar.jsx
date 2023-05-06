@@ -1,28 +1,12 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 import Logo from "/assets/brent-logo.png";
 import styles from "./NavBar.module.scss";
 
 const NavBar = () => {
-	const [scroll, setScroll] = useState(false);
 	const [navOpen, setNavOpen] = useState(false);
-
-	useEffect(() => {
-		const onScroll = () => {
-			const scrollCheck = window.scrollY > 10;
-			if (scrollCheck !== scroll) {
-				setScroll(scrollCheck);
-			}
-		};
-
-		document.addEventListener("scroll", onScroll);
-
-		return () => {
-			document.removeEventListener("scroll", onScroll);
-		};
-	}, [scroll, setScroll]);
 
 	const navBtnHandler = (e) => {
 		if (window.innerWidth <= 1200) {
@@ -31,7 +15,7 @@ const NavBar = () => {
 	};
 
 	return (
-		<nav className={`${styles.nav} ${scroll && styles.navScrolling}`}>
+		<nav className={styles.nav}>
 			<div className={styles.navHeader}>
 				<a href="#" onClick={() => setNavOpen(false)}>
 					<img src={Logo} alt="logo" className={styles.navHeaderLinkImg} />
