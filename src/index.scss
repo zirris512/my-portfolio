@@ -47,7 +47,7 @@ p {
 
 button:focus,
 a:focus {
-	outline: solid 4px v.$focus-color;
+	outline: solid 2px v.$focus-color;
 }
 
 @media (min-width: 1000px) {

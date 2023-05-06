@@ -1,10 +1,12 @@
 @use "../../variables" as v;
 
+$nav-height: 6vh;
+
 .nav {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	min-height: 5vh;
+	max-height: $nav-height;
 	padding-inline: v.$side-spacing-desktop;
 	position: fixed;
 	inset: 0 0 auto 0;
@@ -26,11 +28,13 @@
 	}
 }
 
-.navHeader .navHeaderLinkImg {
-	width: 70px;
-
-	@media (max-width: 1000px) {
-		width: 50px;
+.navHeader {
+	& a {
+		display: block;
+		height: $nav-height;
+	}
+	& .navHeaderLinkImg {
+		height: 100%;
 	}
 }
 
