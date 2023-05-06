@@ -7,19 +7,19 @@ import ProjectsSection from "./Sections/ProjectsSection";
 import SkillsSection from "./Sections/SkillsSection";
 
 const App = () => {
-    return (
-        <>
-            <NavBar />
-            <main>
-                <HomeSection />
-                <AboutSection />
-                <SkillsSection />
-                <ProjectsSection />
-                <ContactSection />
-            </main>
-            <Footer />
-        </>
-    );
+	return (
+		<>
+			<NavBar />
+			<main>
+				<HomeSection />
+				<AboutSection />
+				<SkillsSection />
+				<ProjectsSection />
+				<ContactSection />
+			</main>
+			<Footer />
+		</>
+	);
 };
 
 export default App;

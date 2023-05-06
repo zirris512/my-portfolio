@@ -5,6 +5,14 @@
 	flex-direction: column;
 	justify-content: center;
 	background-color: v.$background-color;
+	opacity: 0;
+	transform: translateX(-100px);
+	transition: all 0.5s ease;
+}
+
+.visible {
+	opacity: 1;
+	transform: translateX(0);
 }
 
 .header {
@@ -13,7 +21,6 @@
 	color: #000;
 	margin-block: 6rem;
 	width: 100%;
-	// border-radius: 50%;
 	background-color: v.$primary-color;
 	box-shadow: 0 0 20px 5px v.$primary-color;
 	text-shadow: 2px 2px 5px v.$background-color;
@@ -21,7 +28,6 @@
 
 .container {
 	padding-inline: v.$side-spacing-mobile;
-	// padding-inline: 0;
 }
 
 @media (min-width: 1000px) {
